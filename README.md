@@ -1,2 +1,2 @@
-# AlgorithmRepo
-Keeping track and coding algorithms as they beomce relevant during my coding journey
+# Algorithm Database
+Keeping track and coding algorithms as they become relevant during my coding journey
