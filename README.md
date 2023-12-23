@@ -13,7 +13,10 @@ Within the Data Structures and Algorithms directories, they each contain simplif
 ----------------------
 
 ## *Topics Covered*
+### Searching Algorithm
 1. Linear Search
 2. Binary Search
+3. Binary Search (Recursive)
+4. Ternary Search
 
 
