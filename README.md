@@ -1,5 +1,5 @@
 # <u>Data Structures and Algorithms Knowledge Base</u>
-> "A summation of DSA's as they become relevant during my coding journey"
+> "A summation of DS's & A's as they become relevant during my coding journey"
 
 | Author            |   Date Created    | Last Modified  |
 |:------------------|:-----------------:|:--------------:|
