@@ -19,6 +19,7 @@ def test_iter_binary(array):
     print("The value " + str(target) + " exists in the array at index " + str(binary_search_iterative(array, target)) + "\n") \
         if binary_search_iterative(array, target) is not None else (print("Element doesn't exist in the array\n"))
 
+
 def test_rec_binary(array):
     # Setting up bounds
     low = 0

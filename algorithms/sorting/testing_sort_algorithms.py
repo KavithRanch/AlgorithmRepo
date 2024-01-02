@@ -2,37 +2,51 @@ import random
 import numpy as n
 from bubble_sort import bubble_sort
 from insertion_sort import insertion_sort
+from selection_sort import selection_sort
 
 
 def test_bubble(array):
+    arr = array.copy()
     print("BUBBLE SORT:")
-    print("Array: " + str(array))
-    result = bubble_sort(array)
+    print("Array: " + str(arr))
+    result = bubble_sort(arr)
     print("Sorted Array: " + str(result))
 
-    expected = array.copy()
-    expected.sort()
+    array.sort()
 
-    print("The array is sorted correctly\n") if (n.array(result) == n.array(expected)).all() else print("The array is not sorted correctly\n")
+    print("The array is sorted correctly\n") if (n.array(result) == n.array(array)).all() else print("The array is not sorted correctly\n")
 
 
 def test_insertion(array):
+    arr = array.copy()
     print("INSERTION SORT:")
-    print("Array: " + str(array))
-    result = insertion_sort(array)
+    print("Array: " + str(arr))
+    result = insertion_sort(arr)
     print("Sorted Array: " + str(result))
 
-    expected = array.copy()
-    expected.sort()
+    array.sort()
 
-    print("The array is sorted correctly\n") if (n.array(result) == n.array(expected)).all() else print("The array is not sorted correctly\n")
+    print("The array is sorted correctly\n") if (n.array(result) == n.array(array)).all() else print("The array is not sorted correctly\n")
+
+
+def test_selection(array):
+    arr = array.copy()
+    print("SELECTION SORT:")
+    print("Array: " + str(arr))
+    result = selection_sort(arr)
+    print("Sorted Array: " + str(result))
+
+    array.sort()
+
+    print("The array is sorted correctly\n") if (n.array(result) == n.array(array)).all() else print("The array is not sorted correctly\n")
 
 
 length = 20  # Set this value to whatever you wish
 
-arr = []
+test_array = []
 for i in range(length):
-    arr.append(random.randint(1, 100))
+    test_array.append(random.randint(1, 100))
 
-test_bubble(arr)
-test_insertion(arr)
+test_bubble(test_array)
+test_insertion(test_array)
+test_selection(test_array)

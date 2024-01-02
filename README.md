@@ -1,5 +1,5 @@
 # <u>Data Structures and Algorithms Knowledge Base</u>
-> "A summation of DS's & A's as they become relevant during my coding journey"
+> "An overview of DS's & A's as they become relevant during my coding journey"
 
 | Author            |   Date Created    | Last Modified  |
 |:------------------|:-----------------:|:--------------:|
@@ -13,10 +13,14 @@ Within the Data Structures and Algorithms directories, they each contain simplif
 ----------------------
 
 ## *Topics Covered*
-### Searching Algorithm
+### Searching Algorithms
 1. Linear Search
 2. Binary Search
 3. Binary Search (Recursive)
 4. Ternary Search
 
+### Sorting Algorithms
+1. Bubble Sort
+2. Insertion Sort
+3. Quick Sort
 
