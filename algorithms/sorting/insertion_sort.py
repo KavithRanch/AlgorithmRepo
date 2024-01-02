@@ -5,16 +5,12 @@ def insertion_sort(array):
     arr = array.copy()
     n = len(arr)
     for i in range(n):
-        curIndex = i
-        for j in range(i, -1, -1):
-            if curIndex != j:
-                if arr[curIndex] >= arr[j]:
-                    break
-                else:
-                    temp = arr[curIndex]
-                    arr[curIndex] = arr[j]
-                    arr[j] = temp
-                    curIndex = j
+        cur_val = arr[i]
+        j = i - 1
+        while j >= 0 and cur_val < arr[j]:
+            arr[j+1] = arr[j]
+            j -= 1
+        arr[j+1] = cur_val
 
     return arr
 
