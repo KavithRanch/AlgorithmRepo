@@ -1,9 +1,9 @@
 # <u>Data Structures and Algorithms Knowledge Base</u>
 > "An overview of DS's & A's as they become relevant during my coding journey"
 
-| Author            |   Date Created    | Last Modified  |
-|:------------------|:-----------------:|:--------------:|
-| Kavith Ranchagoda |   Dec 21st 2023   | Dec 23rd 2023  |
+| Author            |   Date Created    | Last Modified |
+|:------------------|:-----------------:|:-------------:|
+| Kavith Ranchagoda |   Dec 21st 2023   | Jan 3rd 2023  |
 
 ----------------------
 
@@ -23,4 +23,5 @@ Within the Data Structures and Algorithms directories, they each contain simplif
 1. Bubble Sort
 2. Insertion Sort
 3. Quick Sort
+4. Merge Sort
 
