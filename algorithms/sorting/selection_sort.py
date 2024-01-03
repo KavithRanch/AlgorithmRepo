@@ -6,7 +6,7 @@ def selection_sort(array):
     for i in range(n):
         min_val = i
         for j in range(i, n):
-            if array[j] < array[i]:
+            if array[j] < array[min_val]:
                 min_val = j
         (array[i], array[min_val]) = (array[min_val], array[i])
 

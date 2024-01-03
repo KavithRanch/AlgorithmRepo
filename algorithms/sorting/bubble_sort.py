@@ -1,4 +1,6 @@
-"""BUBBLE SORT sorts by going through a list, looking at two elements at once, and swapping them accordingly"""
+"""BUBBLE SORT sorts by going through a list, looking at two elements at once, and swapping them accordingly.
+Essentially moving the largest to smallest elements to their correct place"""
+
 
 def bubble_sort(array):
     n = len(array)
